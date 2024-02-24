@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+	<title>Mancini Music - La tua community musicale</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="Mancini music community">
+	<meta name="keywords" content="music, html">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- Stylesheets -->
+	<link rel="stylesheet" href="css/bootstrap.min.css" />
+	<link rel="stylesheet" href="css/owl.carousel.min.css" />
+	<link rel="stylesheet" href="css/slicknav.min.css" />
+
+	<!-- Main Stylesheets -->
+	<link rel="stylesheet" href="css/style.css" />
+
+</head>
+
+<body>
+	<!-- Header section -->
+	<header class="header-section clearfix">
+		<a href="index.html" class="site-logo">
+			<img src="img/logo.png" alt="">
+		</a>
+		<div class="header-right">
+			<a href="admin.html" class="hr-btn">Admin</a>
+			<span>|</span>
+			<div class="user-panel">
+				<a href="login.html" class="login">Login</a>
+				<a href="register.html" class="register">Crea un account</a>
+			</div>
+		</div>
+		<ul class="main-menu">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="songs.html">Musica</a></li>
+			<li><a href="playlist.html">Playlist</a></li>
+	</header>
+	<!-- Header section end -->
+
+	<!-- Admin -->
+	<div class="container my-5">
+		<div class="row gutters">
+			<div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12">
+				<div class="card h-100">
+					<div class="card-body">
+						<div class="account-settings">
+							<div class="user-profile">
+								<div class="user-avatar">
+									<img src="https://bootdey.com/img/Content/avatar/avatar7.png" alt="Maxwell Admin">
+								</div>
+								<h5 class="keep-updated user-name text-capitalize lh-15 mt-3" data="fullname" ></h5>
+								<h6 class="keep-updated user-email lh-15 small my-2" data="email"></h6>
+							</div>
+							<div class="about mt-5">
+								<h5>Mie playlist</h5>
+								<div class="playlist-container p-1"></div>
+							</div>
+							<hr>
+							<div class="row">
+								<button class="addPlaylist-action site-btn col-8 mx-auto bg-success">Crea Playlist</button>
+							</div>
+							<hr>
+							<div class="row">
+								<button class="delete-action site-btn col-8 mx-auto bg-danger">Cancella account</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-xl-9 col-lg-9 col-md-12 col-sm-12 col-12">
+				<div class="card h-100">
+					<div class="card-body">
+						<form class="form-action contact-from">
+							<div class="row gutters">
+								<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+									<h6 class="mb-2 text-primary">Dettagli personali</h6>
+								</div>
+								<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+									<div class="form-group">
+										<label class="text-bold" for="fullname">Nome completo</label>
+										<input type="text" class="keep-updated form-control" data="fullname" push="value" name="fullname" placeholder="Nome completo">
+									</div>
+								</div>
+								<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+									<div class="form-group">
+										<label for="fullname"></label>
+										<div class="text-right">
+											<button class="update-action site-btn w-100 bg-primary mt-1">Aggiorna</button>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="row gutters mt-5">
+								<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+									<h6 class="mb-2 text-primary">Preferenze musicali</h6>
+								</div>
+								<div class="col-12">
+									<div class="form-group m-0">
+										<label class="text-bold" for="fullname">Generi</label>
+										<div class="row genre-container"></div>
+									</div>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Admin -->
+
+	<!-- Footer section -->
+	<footer class="footer-section">
+		<div class="container">
+			<div class="row">
+				<div class="col-xl-6 col-lg-5 order-lg-1">
+					<img src="img/logo.png" alt="">
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- Footer section end -->
+
+	<!--====== Javascripts & Jquery ======-->
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.slicknav.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/main.js"></script>
+	<script src="js/script.js"></script>
+
+</body>
+
+</html>
